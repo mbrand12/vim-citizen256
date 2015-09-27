@@ -1,10 +1,10 @@
 " Vim color scheme
 " ==============================================================================
 " Name:        citizen256
-" URL:         github.com/mbrand12/citizen256
+" URL:         github.com/mbrand12/vim-citizen256
 " Maintainer:  mbrand12 (mbrand12.dump@gmail.com)
 " Version:     1.0.0
-" Last Change: February 04 2015
+" Last Change: September 27 2015
 " License:     MIT License
 " ------------------------------------------------------------------------------
 "
@@ -14,7 +14,7 @@
 " vim-airline theme.
 "
 " To use put the citizen256.vim in your .vim/colors directory and either add the
-" folowing to .vimrc :
+" following to .vimrc :
 "   colorscheme citizen256
 " or type this:
 "   :colorscheme citizen256
@@ -22,9 +22,10 @@
 "
 " You can also install it via Pathogen:
 "   cd ~/.vim/bundle
-"   git clone https://github.com/mbrand12/citizen256i
-" or Vundle in .vimrc:
-"    Plugin 'mbrand12/citizen256'
+"   git clone https://github.com/mbrand12/vim-citizen256i
+"
+" Or Vundle in .vimrc:
+"    Plugin 'mbrand12/vim-citizen256'
 " then, in vim command-line run:
 "    :source %
 "    :PluginInstall
@@ -32,6 +33,10 @@
 " This scheme started as a minor tweak of the 'mustang', 'monokai' and 'molokai'
 " scheme. But as it usually goes I ended up changing pretty much everything over
 " time.
+"
+" Note: In order for the color scheme to work when installed via Pathogen or
+" Vundle you need to add the `colorscheme citizen256` line after the `execute
+" pathogen#infect()` or `call vundle#end()` respectively in the `.vimrc`.
 "
 " Links to respective inspirations:
 " https://github.com/croaker/mustang-vim
